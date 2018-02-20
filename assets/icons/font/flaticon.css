@@ -32,3 +32,8 @@ margin-left: 20px;
 .flaticon-medium:before { content: "\f100"; }
 .flaticon-twitter-circular-button:before { content: "\f101"; }
 .flaticon-social-linkedin-circular-button:before { content: "\f102"; }
+
+.flaticon-medium:hover, .flaticon-twitter-circular-button:hover, .flaticon-social-linkedin-circular-button:hover {
+  color: #b8b8b8;
+}
+
