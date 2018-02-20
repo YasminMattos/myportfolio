@@ -1,0 +1,83 @@
+html {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bg-closeup {
+  background-image: url(../assets/images/preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.aqua {
+  color: #45c3a7;
+}
+
+.title::before {
+  content: "";
+  border: 2px solid #45c3a7;
+  width: 1em;
+  margin-right: 0.5em;
+}
+
+.resume::before {
+  content: "";
+  border: 2px solid #282828;
+  width: 1em;
+  margin: 0.5em;
+}
+
+.resume {
+  font-family: 'ABeeZee', sans-serif;
+  padding: 0.7em 1em 0.7em 1em;
+  border-radius: 7px;
+}
+
+.dark-title {
+  color: #282828;
+}
+
+.luminous-title {
+  color: #ffff;
+}
+
+#aboutme {
+  background-color: #f7f7f7;
+  padding: 4em 0;
+}
+
+#interests {
+  background-color: #282828;
+  padding: 4em 0;
+}
+
+#skills {
+  background-image: url(../assets/images/greyocean.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 4.9em 0;
+}
+
+.skill-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  padding: 1em 2em;
+}
+
+#portfolio {
+  background-color: #eeeeee;
+  padding: 4em 0;
+}
+
+.tags {
+  padding: 1em  0 0 0.5em;
+}
+
+span {
+  font-size: 17px;
+}
+
+.abc-text {
+  font-family: 'ABeeZee', sans-serif;
+}
