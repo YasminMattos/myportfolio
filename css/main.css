@@ -60,7 +60,7 @@ html {
 }
 
 .skill-overlay {
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.25);
   border-radius: 7px;
   padding: 1em 2em;
 }
@@ -80,6 +80,13 @@ span {
 
 .abc-text {
   font-family: 'ABeeZee', sans-serif;
+}
+
+.text-style {
+  line-height: 27.18px;
+  letter-spacing: -0.063px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
 }
 
 /* mobile device */
