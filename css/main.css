@@ -3,9 +3,10 @@ html {
 }
 
 .bg-closeup {
-  background-image: url(../assets/images/preview.jpg);
+  background-image: url(../assets/images/pexel3.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   height: 100vh;
 }
 
@@ -87,5 +88,12 @@ span {
 @media only screen and (max-width: 500px) {
   ul > li {
     display: inline-block;
+  }
+
+  .bg-closeup {
+    background-image: url(../assets/images/preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
   }
 }
