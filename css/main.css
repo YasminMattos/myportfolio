@@ -21,12 +21,12 @@ html {
   margin-right: 0.5em;
 }
 
-.resume::before {
+/* .resume::before {
   content: "";
   border: 2px solid #282828;
   width: 1em;
   margin: 0.5em;
-}
+} */
 
 .resume {
   font-family: 'ABeeZee', sans-serif;
@@ -96,4 +96,8 @@ span {
     background-size: cover;
     height: 100vh;
   }
+}
+
+#link {
+  color: #45c3a7;
 }
