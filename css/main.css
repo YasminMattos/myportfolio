@@ -3,7 +3,7 @@ html {
 }
 
 .bg-closeup {
-  background-image: url(../assets/images/pexel3.jpeg);
+  background-image: url(../assets/images/art.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -53,15 +53,16 @@ html {
 }
 
 #portfolio {
-  background-image: url(../assets/images/greyocean.jpg);
+  background-image: url(../assets/images/bg5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
   padding: 4.9em 0;
 }
 
 #skills {
-  background-color: #eeeeee;
+  background-image: url(../assets/images/bg3.jpg);
+  background-position: center bottom;
   padding: 4em 0;
 }
 
@@ -90,14 +91,17 @@ span {
     display: inline-block;
   }
 
-  .bg-closeup {
-    background-image: url(../assets/images/preview.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
 }
 
 #link {
   color: #45c3a7;
+}
+
+#github {
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+#github:hover {
+  color: #b8b8b8;
 }
