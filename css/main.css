@@ -21,13 +21,6 @@ html {
   margin-right: 0.5em;
 }
 
-/* .resume::before {
-  content: "";
-  border: 2px solid #282828;
-  width: 1em;
-  margin: 0.5em;
-} */
-
 .resume {
   font-family: 'ABeeZee', sans-serif;
   padding: 0.7em 1em 0.7em 1em;
